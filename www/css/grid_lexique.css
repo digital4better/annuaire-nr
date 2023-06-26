@@ -1,0 +1,193 @@
+.page_text {
+    padding-top: 185px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.footer2 {
+    margin-top: 300px;
+    width: 100%;
+    display: flex;
+    height: 120px;
+    background-color: #021933;
+    color: #ffffff;
+}
+
+.footer_div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.lexique_text {
+    margin-left: 300px;
+    position: absolute;
+    padding-top: 150px;
+}
+
+.lexique_grid {
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 120px;
+}
+
+
+.numresp {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+
+a {
+    cursor: pointer;
+}
+
+.text {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links_grid_para {
+    padding-top: 30px;
+}
+
+.btn_link {
+    position: static;
+}
+
+.access {
+    margin-top: auto;
+    margin-bottom: 1px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    margin-left: 130px;
+    background-color: #df523d;
+    color: #ffffff;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.access:hover {
+    transition: 0.3s ease-in;
+    background-color: #b84432;
+}
+
+.access a {
+    color: #ffffff;
+}
+
+.lexique_grid_main {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40% 40% 40%;
+    grid-template-columns: 100px 450px;
+    justify-content: center;
+    padding-top: 300px;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1400px) {
+    .lexique_grid_main {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 40% 40% 40%;
+        grid-template-columns: 100px 450px;
+        justify-content: center;
+        padding-top: 300px;
+        justify-content: space-around;
+    }
+    
+    .lexique_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links_grid_title {
+        font-size: 20px;
+    }
+
+    .links_grid_para {
+        font-size: 12px;    
+    }
+
+    .access {
+        height: 25px;
+        width: 150px;
+        border-radius: 30px;
+        margin-left: 80px;
+    }
+
+    .numresp {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    .lexique_grid_main {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 30% 30% 30% 30% 30% 30%;
+        grid-template-columns: 100px ;
+        justify-content: center;
+        padding-top: 300px;
+        justify-content: space-around;
+        place-items: center;
+    }
+
+    .lexique_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .numresp {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 400px) {
+
+    .lexique_grid_main {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 30% 30% 30% 30% 30% 30%;
+        grid-template-columns: 100px ;
+        justify-content: center;
+        padding-top: 300px;
+        justify-content: space-around;
+        place-items: center;
+    }
+
+    .lexique_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .numresp {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+
+}

@@ -1,0 +1,347 @@
+.page_text {
+    padding-top: 185px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.tutoriels_text {
+    margin-left: 300px;
+    position: absolute;
+    padding-top: 150px;
+}
+
+.tutoriels_grid {
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.bases {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+.prerequis {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+.recyclage {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+.econum {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+.renduefinal {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+.conclusion {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+a {
+    cursor: pointer;
+}
+
+.text {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links_grid_para {
+    padding-top: 30px;
+}
+
+.btn_link {
+    position: static;
+}
+
+.access {
+    margin-top: auto;
+    margin-bottom: 1px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    margin-left: 130px;
+    background-color: #df523d;
+    color: #ffffff;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.access:hover {
+    transition: 0.3s ease-in;
+    background-color: #b84432;
+}
+
+.access a {
+    color: #ffffff;
+}
+
+.tutoriels_grid_main {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40% 40% 40%;
+    grid-template-columns: 100px 450px;
+    justify-content: center;
+    padding-top: 300px;
+    justify-content: space-around;
+}
+
+
+.tutoriel_stars {
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 90px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 1400px) {
+    .tutoriels_grid_main {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 40% 40% 40%;
+        grid-template-columns: 100px 450px;
+        justify-content: center;
+        padding-top: 300px;
+        justify-content: space-around;
+    }
+    
+    .tutoriels_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links_grid_title {
+        font-size: 20px;
+    }
+
+    .links_grid_para {
+        font-size: 12px;    
+    }
+
+    .access {
+        height: 25px;
+        width: 150px;
+        border-radius: 30px;
+        margin-left: 80px;
+    }
+
+    .bases {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .tutoriel_stars {
+        height: 40px;
+        margin-top: 80px;
+    }
+
+    .prerequis {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .recyclage {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .econum {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .renduefinal {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .conclusion {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .tutoriels_grid {
+        padding-top: 600px;
+    }
+    
+    .tutoriels_grid_main {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 30% 30% 30% 30% 30% 30%;
+        grid-template-columns: 100px ;
+        justify-content: center;
+        padding-top: 300px;
+        justify-content: space-around;
+        place-items: center;
+    }
+
+    .tutoriels_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mooc {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .prerequis {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .recyclage {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .econum {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .renduefinal {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .conclusion {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .tutoriels_grid_main {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 30% 30% 30% 30% 30% 30%;
+        grid-template-columns: 100px ;
+        justify-content: center;
+        padding-top: 300px;
+        justify-content: space-around;
+        place-items: center;
+    }
+
+    .tutoriels_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mooc {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .prerequis {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .recyclage {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .econum {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .renduefinal {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .conclusion {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+}

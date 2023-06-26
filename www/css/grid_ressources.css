@@ -1,0 +1,240 @@
+.page_text {
+    padding-top: 185px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.fruggr_ul li{
+    padding-top: 40px;
+}
+
+.fruggr_ul li a {
+    color: #ffffff;
+}
+
+.ressources_text {
+    margin-left: 300px;
+    position: absolute;
+    padding-top: 150px;
+}
+
+.ressources_grid {
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.fruggr {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.ressource_card {
+    height: 325px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+a {
+    cursor: pointer;
+}
+
+.text {
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.links_grid_para {
+    padding-top: 30px;
+}
+
+.btn_link {
+    position: static;
+}
+
+.access {
+    margin-top: auto;
+    margin-bottom: 1px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    margin-left: 130px;
+    background-color: #df523d;
+    color: #ffffff;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.access:hover {
+    transition: 0.3s ease-in;
+    background-color: #b84432;
+}
+
+.access a {
+    color: #ffffff;
+}
+
+.ressources_grid_main {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 40% 40% 40%;
+    grid-template-columns: 100px 450px;
+    justify-content: center;
+    padding-top: 300px;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1400px) {
+    .ressources_grid_main {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 40% 40% 40%;
+        grid-template-columns: 100px 450px;
+        justify-content: center;
+        padding-top: 300px;
+        justify-content: space-around;
+    }
+    
+    .ressources_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links_grid_title {
+        font-size: 20px;
+    }
+
+    .fruggr_ul li a {
+        font-size: 12px;    
+    }
+
+    .fruggr {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+    }
+
+    .ressource_card {
+        height: 270px;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .ressources_grid_main {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 30% 30% 30% 30% 30% 30%;
+        grid-template-columns: 100px ;
+        justify-content: center;
+        justify-content: space-around;
+        place-items: center;
+    }
+
+    .ressources_grid {
+        padding-top: 400px;
+    }
+
+    .ressources_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .links_grid_title {
+        font-size: 20px;
+    }
+
+    .fruggr_ul li a {
+        font-size: 12px;    
+    }
+
+    .fruggr {
+        height: 230px;
+        width: 384px;
+        display: flex;
+        border-radius: 20px;
+        padding-top: 40px;
+    }
+
+    .ressource_card {
+        height: 260px;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .ressources_grid_main {
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 30% 30% 30% 30% 30% 30%;
+        grid-template-columns: 100px ;
+        justify-content: center;
+        padding-top: 300px;
+        justify-content: space-around;
+        place-items: center;
+    }
+
+    .ressources_text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mooc {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .orsys {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .ynov {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .francenum {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .cesi {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+    
+    .visiplus {
+        height: 200px;
+        width: 354px;
+        display: flex;
+        border-radius: 20px;
+        border: solid 5px black;
+    }
+}
