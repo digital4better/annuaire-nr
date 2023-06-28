@@ -83,24 +83,6 @@ a {
     position: static;
 }
 
-.access {
-    margin-top: auto;
-    margin-bottom: 1px;
-    cursor: pointer;
-    height: 50px;
-    width: 150px;
-    border-radius: 30px;
-    margin-left: 130px;
-    background-color: #df523d;
-    color: #ffffff;
-    border: none;
-    transition: 0.3s ease-in;
-}
-
-.access:hover {
-    transition: 0.3s ease-in;
-    background-color: #b84432;
-}
 
 .access a {
     color: #ffffff;

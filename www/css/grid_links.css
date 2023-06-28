@@ -2,6 +2,12 @@
     color: #df523d;
 }
 
+.page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
 .page_text {
     padding-top: 185px;
     font-size: 22px;
@@ -9,65 +15,12 @@
 }
 
 .liens_text {
-    margin-left: 300px;
-    position: absolute;
     padding-top: 150px;
 }
 
-.liens_grid {
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 
-.mooc {
-    height: 300px;
-    width: 500px;
-    display: flex;
-    border-radius: 20px;
-    border: solid 5px black;
-}
 
-.orsys {
-    height: 300px;
-    width: 500px;
-    display: flex;
-    border-radius: 20px;
-    border: solid 5px black;
-}
-
-.ynov {
-    height: 300px;
-    width: 500px;
-    display: flex;
-    border-radius: 20px;
-    border: solid 5px black;
-}
-
-.francenum {
-    height: 300px;
-    width: 500px;
-    display: flex;
-    border-radius: 20px;
-    border: solid 5px black;
-}
-
-.cesi {
-    height: 300px;
-    width: 500px;
-    display: flex;
-    border-radius: 20px;
-    border: solid 5px black;
-}
-
-.visiplus {
-    height: 300px;
-    width: 500px;
-    display: flex;
-    border-radius: 20px;
-    border: solid 5px black;
-}
 
 a {
     cursor: pointer;
@@ -79,22 +32,57 @@ a {
     flex-direction: column;
 }
 
+.liens_grid_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;    
+    margin-top: 40px;
+    justify-content: space-around;
+    
+}
+
+.grid_base {
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+.ressource_grid_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;    
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.fruggr {
+    background-image: url('../img/Ressource_card.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
 .links_grid_para {
     padding-top: 30px;
 }
+
+
 
 .btn_link {
     position: static;
 }
 
 .access {
-    margin-top: auto;
-    margin-bottom: 1px;
     cursor: pointer;
     height: 50px;
     width: 150px;
     border-radius: 30px;
-    margin-left: 130px;
+    margin: auto;
     background-color: #df523d;
     color: #ffffff;
     border: none;
@@ -106,28 +94,31 @@ a {
     background-color: #b84432;
 }
 
+.access:hover {
+    transition: 0.3s ease-in;
+    background-color: #b84432;
+}
+
 .access a {
     color: #ffffff;
 }
 
-.liens_grid_main {
-    height: 100vh;
-    display: grid;
-    grid-template-rows: 40% 40% 40%;
-    grid-template-columns: 100px 450px;
-    justify-content: center;
-    padding-top: 300px;
-    justify-content: space-around;
+h2.lexique_text_title {
+    padding-top: 90px;
 }
+
+h2.ressources_text_title {
+    padding-top: 90px;
+}
+
+
 
 @media only screen and (max-width: 1400px) {
     .liens_grid_main {
-        height: 100vh;
         display: grid;
-        grid-template-rows: 40% 40% 40%;
-        grid-template-columns: 100px 450px;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-content: center;
-        padding-top: 300px;
+        padding-top: 40px;
         justify-content: space-around;
     }
     
@@ -144,70 +135,22 @@ a {
         font-size: 12px;    
     }
 
-    .access {
-        height: 25px;
-        width: 150px;
-        border-radius: 30px;
-        margin-left: 80px;
-    }
 
-    .mooc {
-        height: 230px;
-        width: 384px;
+    .grid_base {
         display: flex;
         border-radius: 20px;
         border: solid 5px black;
     }
+   
     
-    .orsys {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .ynov {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .francenum {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .cesi {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .visiplus {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
     .liens_grid_main {
-        height: 100vh;
         display: grid;
-        grid-template-rows: 30% 30% 30% 30% 30% 30%;
-        grid-template-columns: 100px ;
+        grid-template-columns: 1fr 1fr ;
         justify-content: center;
-        padding-top: 300px;
+        padding-top: 40px;
         justify-content: space-around;
         place-items: center;
     }
@@ -217,64 +160,21 @@ a {
         margin-right: auto;
     }
 
-    .mooc {
-        height: 230px;
-        width: 384px;
+    .grid_base {
         display: flex;
         border-radius: 20px;
         border: solid 5px black;
     }
     
-    .orsys {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .ynov {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .francenum {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .cesi {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .visiplus {
-        height: 230px;
-        width: 384px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
 
     .liens_grid_main {
-        height: 100vh;
         display: grid;
-        grid-template-rows: 30% 30% 30% 30% 30% 30%;
-        grid-template-columns: 100px ;
+        grid-template-columns: 1fr;
         justify-content: center;
-        padding-top: 300px;
+        padding-top: 40px;
         justify-content: space-around;
         place-items: center;
     }
@@ -284,51 +184,10 @@ a {
         margin-right: auto;
     }
 
-    .mooc {
-        height: 200px;
-        width: 354px;
+    .grid_base {
         display: flex;
         border-radius: 20px;
         border: solid 5px black;
     }
     
-    .orsys {
-        height: 200px;
-        width: 354px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .ynov {
-        height: 200px;
-        width: 354px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .francenum {
-        height: 200px;
-        width: 354px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .cesi {
-        height: 200px;
-        width: 354px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
-    
-    .visiplus {
-        height: 200px;
-        width: 354px;
-        display: flex;
-        border-radius: 20px;
-        border: solid 5px black;
-    }
 }
