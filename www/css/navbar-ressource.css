@@ -7,8 +7,9 @@
     background-color: white;
     -webkit-box-shadow: 0px 8px 32px -16px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 8px 32px -16px rgba(0,0,0,0.75);
-box-shadow: 0px 8px 32px -16px rgba(0,0,0,0.75);    
-    
+box-shadow: 0px 8px 32px -16px rgba(0,0,0,0.75); 
+    position: fixed;
+    margin-top: 80px;
 }
 
 .sticky {
@@ -20,9 +21,7 @@ box-shadow: 0px 8px 32px -16px rgba(0,0,0,0.75);
 a {
     color: #000000;
 }
-header {
-    position: relative;
-}
+
 
 .navbar {
     width: 100%;
@@ -31,6 +30,7 @@ header {
     z-index: 12;
     display: flex;
     align-items: center;
+    position: fixed;
     justify-content: space-between;
 }
 

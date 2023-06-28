@@ -2,7 +2,7 @@ a {
     color: #000000;
 }
 header {
-    position: relative;
+    position: fixed;
 }
 
 .navbar {
@@ -13,6 +13,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 .navbar .links {
