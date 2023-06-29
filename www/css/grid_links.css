@@ -8,6 +8,12 @@
     padding: 50px;
 }
 
+.page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
 .page_text {
     padding-top: 185px;
     font-size: 22px;
@@ -19,8 +25,61 @@
 }
 
 
+.grid_base {
+    display: flex;
+    border-radius: 20px;
+    border: solid 5px black;
+}
+
+.liens_grid_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 40px;
+    justify-content: space-around;
+}
+
+.ressources_grid_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 40px;
+    justify-content: space-around;
+}
+
+ul.fruggr_ul {
+    padding-top: 30px;
+}   
+li.fruggr_links {
+    padding-top: 10px;
+}
 
 
+.fruggr {
+    position: relative;
+    background-color: #333333;
+    min-height: 250px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+.fruggr a {
+    color: #ffffff;
+}
+
+.fruggr_logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fruggr_bars {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 a {
     cursor: pointer;
@@ -32,70 +91,11 @@ a {
     flex-direction: column;
 }
 
-.liens_grid_main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 20px;
-    justify-content: center;    
-    margin-top: 40px;
-    justify-content: space-around;
-    
-}
-
-.grid_base {
-    display: flex;
-    border-radius: 20px;
-    border: solid 5px black;
-}
-
-.ressource_grid_main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: #ffffff;
-    row-gap: 20px;
-    column-gap: 20px;
-    justify-content: center;    
-    margin-top: 40px;
-    justify-content: space-around;
-}
-
-.ressource_grid_main a {
-    color: #ffffff;
-}
-
-.fruggr {
-    background-color: #393939;
-    display: flex;
-    border-radius: 20px;
-    position: relative;
-    min-height: 250px;
-}
-
-.fruggr_ul {
-    padding-top: 30px;
-}
-
-.fruggr_ul li {
-    padding-top: 20px;
-}
-
-.bars {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.fruggr_logo {
-    position: absolute;
-    top: 0;
-    right: 0;
-
-}
-
 .links_grid_para {
     padding-top: 30px;
 }
+
+
 
 
 
@@ -109,10 +109,16 @@ a {
     width: 150px;
     border-radius: 30px;
     margin: auto;
+    margin: auto;
     background-color: #df523d;
     color: #ffffff;
     border: none;
     transition: 0.3s ease-in;
+}
+
+.access:hover {
+    transition: 0.3s ease-in;
+    background-color: #b84432;
 }
 
 .access:hover {
@@ -142,12 +148,15 @@ h2.ressources_text_title {
     background-color: #021933;
     height: 100px;
     width: 100%;
+    z-index: 23;
     display: flex;
     text-align: center;
     justify-content: center;
     padding-top: 60px;
     color: #ffffff;
 }
+
+
 
 
 
@@ -173,21 +182,20 @@ h2.ressources_text_title {
         font-size: 12px;    
     }
 
-
     .grid_base {
         display: flex;
         border-radius: 20px;
         border: solid 5px black;
     }
-   
-    
 }
 
 @media only screen and (max-width: 1200px) {
     .liens_grid_main {
         display: grid;
         grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr ;
         justify-content: center;
+        padding-top: 40px;
         padding-top: 40px;
         justify-content: space-around;
         place-items: center;
@@ -209,6 +217,7 @@ h2.ressources_text_title {
         margin-right: auto;
     }
 
+    .grid_base {
     .grid_base {
         display: flex;
         border-radius: 20px;
@@ -249,5 +258,5 @@ h2.ressources_text_title {
         border-radius: 20px;
         border: solid 5px black;
     }
-    
+}
 }
